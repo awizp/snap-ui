@@ -322,6 +322,8 @@
         }
 
         .navbar_section .navbar_links {
+            display: none;
+            opacity: 0;
             position: fixed;
             top: 0;
             right: 0;
@@ -357,6 +359,8 @@
         }
 
         .navbar_section input#navbar_open:checked ~ .navbar_links {
+            display: flex;
+            opacity: 1;
             transform: translateX(0);
         }
     }
