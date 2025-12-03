@@ -137,7 +137,7 @@
         min-height: 100vh;
 
         font-family: var(--font-epilogue);
-        background-color: var(--color-bg-dark);
+        background-color: var(--color-bg-light);
         position: relative;
         transition: .5s;
     }
@@ -223,7 +223,7 @@
 
 @layer navbar {
     .header_section {
-        background-color: var(--color-bg-dark);
+        background-color: var(--color-bg-light);
         color: var(--color-text);
     }
 
@@ -264,7 +264,7 @@
         transition: color .3s ease;
         cursor: pointer;
 
-        background-color: var(--color-bg-dark);
+        background-color: var(--color-bg-light);
         color: var(--color-text-mute);
     }
 
@@ -384,7 +384,7 @@
 
 @layer hero {
     .main_section {
-        background-color: var(--color-bg-dark);
+        background-color: var(--color-bg-light);
         color: var(--color-text);
     }
 
